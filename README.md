@@ -22,7 +22,7 @@
 4. 在扩展面板中，点击"安装第三方扩展"按钮（通常是 + 号或下载图标）
 5. 在弹出的对话框中输入本仓库的 Git URL：
    ```
-   https://github.com/CironaSIe/st-ConsoleViewer.git
+   https://github.com/CironaSIe/ConsoleViewer.git
    ```
 6. 点击"安装"按钮
 7. 安装完成后，在扩展列表中会出现"控制台日志"入口
