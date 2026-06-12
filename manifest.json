@@ -1,0 +1,13 @@
+{
+    "display_name": "控制台日志",
+    "loading_order": 1,
+    "js": "index.js",
+    "css": "style.css",
+    "author": "CironaSIe",
+    "version": "1.0.0",
+    "homePage": "",
+    "auto_update": false,
+    "hooks": {
+        "activate": "onActivate"
+    }
+}

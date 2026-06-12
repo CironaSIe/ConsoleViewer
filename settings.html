@@ -1,0 +1,51 @@
+<div class="console-viewer-settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>控制台日志</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <div id="cv_filter_bar" class="cv-filter-bar">
+                <button class="cv-btn cv-filter-btn cv-active" data-level="all">全部</button>
+                <button class="cv-btn cv-filter-btn" data-level="log">Log</button>
+                <button class="cv-btn cv-filter-btn" data-level="info">Info</button>
+                <button class="cv-btn cv-filter-btn" data-level="warn">Warn</button>
+                <button class="cv-btn cv-filter-btn" data-level="error">Error</button>
+            </div>
+            <div id="cv_toolbar" class="cv-toolbar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="cv_search" class="cv-search-input" type="text" placeholder="搜索...">
+                <button id="cv_export" class="cv-btn" title="导出"><i class="fa-solid fa-download"></i></button>
+                <button id="cv_clear" class="cv-btn" title="清空"><i class="fa-solid fa-trash"></i></button>
+            </div>
+            <div id="cv_log_list" class="cv-log-list"></div>
+            <div id="cv_status" class="cv-status">
+                <div class="cv-status-left">
+                    <label class="toggleLabel" title="捕获到 error 时弹出通知">
+                        <input id="cv_notify_toggle" type="checkbox">
+                        <span></span>
+                        错误通知
+                    </label>
+                    <label class="toggleLabel" title="捕获调用堆栈">
+                        <input id="cv_stack_toggle" type="checkbox">
+                        <span></span>
+                        堆栈
+                    </label>
+                    <label class="toggleLabel" title="开启/关闭日志捕获">
+                        <input id="cv_recording_toggle" type="checkbox">
+                        <span></span>
+                        记录
+                    </label>
+                    <label class="toggleLabel" title="最新日志显示在最前">
+                        <input id="cv_reverse_toggle" type="checkbox">
+                        <span></span>
+                        最新最前
+                    </label>
+                </div>
+                <div class="cv-status-right">
+                    <span id="cv_count" class="cv-count">0 / 500</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
